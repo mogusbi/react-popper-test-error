@@ -1,4 +1,6 @@
 import React from 'react';
+import Hook from './Components/Hook';
+import Render from './Components/Render';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +20,12 @@ function App() {
         >
           Learn React
         </a>
+
+        <Render />
+
+        <Hook />
+
+        
       </header>
     </div>
   );
